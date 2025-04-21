@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MoodMatcher</string>
+    <string name="feeling_stressed">😣 Feeling stressed</string>
+    <string name="how_are_you_feeling_today">😌 How are you feeling today?</string>
+    <string name="feeling_tired">😴 Feeling tired</string>
+    <string name="restless_or_anxious">😬 Restless or anxious</string>
+    <string name="feeling_sad_or_down">😢 Feeling sad or down</string>
+    <string name="calculate_mood">🧠 Calculate Mood</string>
+    <string name="how_does_this_work">ℹ️ How does this work?</string>
+</resources>
