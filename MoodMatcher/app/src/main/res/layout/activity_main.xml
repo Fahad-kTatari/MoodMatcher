@@ -9,13 +9,12 @@
     android:background="@color/background_color"
     android:padding="20dp">
 
-
+    <!-- Mood Input -->
     <EditText
         android:id="@+id/moodInput"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:autofillHints=""
-        android:hint="@string/how_are_you_feeling_today"
+        android:hint="😌 How are you feeling today?"
         android:inputType="text"
         android:textSize="18sp"
         android:background="@drawable/edittext_bg"
@@ -27,7 +26,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-
+    <!-- Symptoms Checkboxes -->
     <LinearLayout
         android:id="@+id/symptomsCheckboxGroup"
         android:layout_width="0dp"
@@ -42,37 +41,37 @@
             android:id="@+id/symptomTired"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/feeling_tired"
+            android:text="😴 Feeling tired"
             android:textColor="@color/primary_text"/>
 
         <CheckBox
             android:id="@+id/symptomRestless"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/restless_or_anxious"
+            android:text="😬 Restless or anxious"
             android:textColor="@color/primary_text"/>
 
         <CheckBox
             android:id="@+id/symptomStressed"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/feeling_stressed"
+            android:text="😣 Feeling stressed"
             android:textColor="@color/primary_text"/>
 
         <CheckBox
             android:id="@+id/symptomSad"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/feeling_sad_or_down"
+            android:text="😢 Feeling sad or down"
             android:textColor="@color/primary_text"/>
     </LinearLayout>
 
-
+    <!-- Calculate Mood Button -->
     <Button
         android:id="@+id/calculateButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/calculate_mood"
+        android:text="🧠 Calculate Mood"
         android:textStyle="bold"
         android:layout_marginTop="20dp"
         android:backgroundTint="@color/button_color"
@@ -82,7 +81,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
-
+    <!-- Mood Result -->
     <TextView
         android:id="@+id/moodResult"
         android:layout_width="0dp"
@@ -97,12 +96,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-
+    <!-- Modal / Info Button -->
     <Button
         android:id="@+id/modalButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/how_does_this_work"
+        android:text="ℹ️ How does this work?"
         android:layout_marginTop="16dp"
         android:backgroundTint="@color/button_color"
         android:textColor="@android:color/white"

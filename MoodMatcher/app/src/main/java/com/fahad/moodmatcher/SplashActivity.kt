@@ -14,7 +14,7 @@ class SplashActivity : AppCompatActivity() {
         setTheme(R.style.Theme_MoodMatcher_Splash) // Optional splash theme
         setContentView(R.layout.activity_splash)
 
-
+        // Delay and then go to MainActivity
         lifecycleScope.launch {
             delay(2500) // 2.5 seconds
             startActivity(Intent(this@SplashActivity, MainActivity::class.java))

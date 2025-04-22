@@ -14,7 +14,7 @@
         android:theme="@style/Theme.MoodMatcher"
         tools:targetApi="31">
 
-
+        <!-- Splash is launcher -->
         <activity
             android:name=".SplashActivity"
             android:exported="true">
@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
 
-
+        <!-- Main activity (regular) -->
         <activity
             android:name=".MainActivity"
             android:exported="true"/>
